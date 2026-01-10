@@ -34,9 +34,9 @@ const FORMAT_DESCRIPTIONS: Record<string, string> = {
   "Keynote (15 min)":
     "For the Keynote format, we have prioritized speakers with lofty goals and ambitious undertakings. Breakpoint is an opportunity to set the stage for not just your own company, but the hundreds to come—use the chance to convey the problems to be overcome rather than just the problems you've already solved. Vision statements on the future of the crypto industry are welcome (and recommended).",
   "Product Keynote (5 min)":
-    "For the Product Keynotes, we have prioritized teams that are launching new products. Our goal is to showcase the flourish of Solana's application layer or developer resources that helps build a thriving application layer. Accordingly, we ask that you keep your presentation product-centric. In other words, please show, don't tell. Product demos are preferable.",
+    "For the Product Keynotes, we have prioritized teams that are launching new products. Our goal is to showcase the flourish of Trezoa's application layer or developer resources that helps build a thriving application layer. Accordingly, we ask that you keep your presentation product-centric. In other words, please show, don't tell. Product demos are preferable.",
   "Product Keynote (7 min)":
-    "For the Product Keynotes, we have prioritized teams that are launching new products. Our goal is to showcase the flourish of Solana's application layer or developer resources that helps build a thriving application layer. Accordingly, we ask that you keep your presentation product-centric. In other words, please show, don't tell. Product demos are preferable.",
+    "For the Product Keynotes, we have prioritized teams that are launching new products. Our goal is to showcase the flourish of Trezoa's application layer or developer resources that helps build a thriving application layer. Accordingly, we ask that you keep your presentation product-centric. In other words, please show, don't tell. Product demos are preferable.",
   "Reacts (20 min)":
     "A guided fireside chat built around live prompts – tweets, charts, and headlines projected on screen. The interviewer reacts to each visual in real time, using it to spark conversation and deeper reflection.",
 };

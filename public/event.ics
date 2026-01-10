@@ -1,11 +1,11 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 CALSCALE:GREGORIAN
-PRODID:speakers.solana.com//Breakpoint 2025//EN
+PRODID:speakers.trezoa.com//Breakpoint 2025//EN
 METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:session-recKaXsy5Fjihau5f@speakers.solana.com
+UID:session-recKaXsy5Fjihau5f@speakers.trezoa.com
 SUMMARY:Breakpoint 2025 - Test Day 0
 DTSTAMP:20250905T203135Z
 DTSTART:20251210T080000Z
@@ -15,7 +15,7 @@ DESCRIPTION:This House believes that DAOs are overhyped and incapable of ef
 LOCATION:Absolute Cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:session-recITWHxfv93jDlIx@speakers.solana.com
+UID:session-recITWHxfv93jDlIx@speakers.trezoa.com
 SUMMARY:Breakpoint 2025 - Day 1 - Open
 DTSTAMP:20250905T203135Z
 DTSTART:20251211T080000Z

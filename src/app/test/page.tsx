@@ -44,13 +44,13 @@ const DUMMY_DATA = {
     {
       id: "rec_session_1",
       name: "Building the Next Generation of dApps",
-      description: "Join us for a deep dive into building scalable decentralized applications on Solana.",
+      description: "Join us for a deep dive into building scalable decentralized applications on Trezoa.",
       startTime: "2025-11-15T14:00:00Z",
       endTime: "2025-11-15T15:30:00Z",
       stage: StageValues.Main,
       speakerIds: ["rec123abc", "rec456def"],
       moderatorIds: undefined,
-      subscribeUrl: "https://breakpoint.solana.org/calendar/session_1",
+      subscribeUrl: "https://breakpoint.trezoa.org/calendar/session_1",
       webPublishingStatus: ["Title", "Description", "Speaker"],
       format: ["Product Keynote (5 min)"],
       greenlightTime: "Between 10am and 11am",
@@ -80,7 +80,7 @@ const DUMMY_DATA = {
       stage: StageValues.Side,
       speakerIds: ["rec123abc", "rec789ghi", "rec012jkl"],
       moderatorIds: undefined,
-      subscribeUrl: "https://breakpoint.solana.org/calendar/session_2",
+      subscribeUrl: "https://breakpoint.trezoa.org/calendar/session_2",
       webPublishingStatus: ["Time", "Title", "Description", "Speaker"],
       format: ["Debate (30 min)"],
       greenlightTime: undefined,
@@ -109,14 +109,14 @@ const DUMMY_DATA = {
     },
     {
       id: "rec_session_4",
-      name: "Opening Keynote: The State of Solana",
-      description: "An annual review of Solana's growth, achievements, and what's coming next.",
+      name: "Opening Keynote: The State of Trezoa",
+      description: "An annual review of Trezoa's growth, achievements, and what's coming next.",
       startTime: "2025-11-15T09:00:00Z",
       endTime: "2025-11-15T10:30:00Z",
       stage: StageValues.Main,
       speakerIds: ["rec123abc"],
       moderatorIds: undefined,
-      subscribeUrl: "https://breakpoint.solana.org/calendar/session_4",
+      subscribeUrl: "https://breakpoint.trezoa.org/calendar/session_4",
       webPublishingStatus: ["Time", "Title", "Description", "Speaker"],
       format: ["Keynote (10 min)"],
       greenlightTime: undefined,
@@ -138,8 +138,8 @@ export default function DemoSpeakerPage() {
   const { speaker, sessions } = DUMMY_DATA;
 
   // Dummy calendar URLs
-  const calendarUrl = "https://breakpoint.solana.org/api/ics/speaker/dummy-token";
-  const allSessionsCalendarUrl = "https://breakpoint.solana.org/api/ics/event/dummy-token";
+  const calendarUrl = "https://breakpoint.trezoa.org/api/ics/speaker/dummy-token";
+  const allSessionsCalendarUrl = "https://breakpoint.trezoa.org/api/ics/event/dummy-token";
 
   // Prepare sessions data for ActionsChecklist
   const sessionsForChecklist = sessions.map((session) => ({

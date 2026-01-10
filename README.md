@@ -1,4 +1,4 @@
-# speakers.solana.com — BP25 Speaker Portal
+# speakers.trezoa.com — BP25 Speaker Portal
 
 A focused **Airtable-driven** microsite for Breakpoint speakers. Private-but-shareable pages (no login required) via **JWT-signed links**, fresh data from **Airtable** (server-side only), and convenient **ICS** calendar feeds.
 
@@ -57,7 +57,7 @@ NEXT_PUBLIC_KEY_EXP=7776000000
 # SendGrid transactional email
 SENDGRID_API_KEY=SG.xxxxxx
 SENDGRID_TEMPLATE_ID=d-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-SENDGRID_FROM_EMAIL=speakers@solana.org
+SENDGRID_FROM_EMAIL=speakers@trezoa.org
 SENDGRID_FROM_NAME="Breakpoint Events Team"
 # Optional: keep true while developing to avoid sending real mail
 SENDGRID_SANDBOX_MODE=true
@@ -235,9 +235,9 @@ pnpm lint       # lint
 
 ## Deploy on Vercel
 
-- Create project speakers-solana-com
+- Create project speakers-trezoa-com
 - Set all Environment Variables
-- Assign custom domain speakers.solana.com
+- Assign custom domain speakers.trezoa.com
 - (Optional) Add Sentry via wizard
 
 ## Contributing

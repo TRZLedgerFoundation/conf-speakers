@@ -7,7 +7,7 @@ import { Suspense } from "react";
 export const metadata: Metadata = {
   title: "Breakpoint 2025 Dashboard",
   description: "Agenda and speaking info for the Breakpoint 2025 conference",
-  metadataBase: new URL("https://breakpoint25.solana.com"),
+  metadataBase: new URL("https://breakpoint25.trezoa.com"),
   openGraph: {
     title: "Breakpoint 2025 Dashboard",
     description: "Agenda and speaking info for the Breakpoint 2025 conference",

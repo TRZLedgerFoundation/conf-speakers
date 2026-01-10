@@ -62,10 +62,10 @@ export function sessionToIcsEvent(session: SessionEvent): EventAttributes {
     description,
     location: session.stage ? session.stage : "Etihad Arena, Abu Dhabi, UAE",
     geo: { lat: 24.4539, lon: 54.3773 }, // Abu Dhabi coordinates
-    uid: `session-${session.id}@speakers.solana.com`,
-    productId: "speakers.solana.com//Breakpoint 2025//EN",
+    uid: `session-${session.id}@speakers.trezoa.com`,
+    productId: "speakers.trezoa.com//Breakpoint 2025//EN",
     calName: "Breakpoint 2025",
-    organizer: { name: "Breakpoint 2025", email: "noreply@speakers.solana.com" },
+    organizer: { name: "Breakpoint 2025", email: "noreply@speakers.trezoa.com" },
     status: "CONFIRMED" as const,
     busyStatus: "BUSY" as const,
     created: createdArray,

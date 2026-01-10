@@ -252,7 +252,7 @@ export default function ActionsChecklist({
     {
       id: "stage-team-questions",
       title: "Questions",
-      description: "Email: speakers@solana.org",
+      description: "Email: speakers@trezoa.org",
       status: "pending" as const,
       link: null,
       linkText: null,

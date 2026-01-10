@@ -10,7 +10,7 @@ type SendMagicLinkArgs = {
 
 const apiKey = process.env.SENDGRID_API_KEY;
 const defaultTemplateId = process.env.SENDGRID_TEMPLATE_ID;
-const fromEmail = process.env.SENDGRID_FROM_EMAIL ?? "speakers@solana.org";
+const fromEmail = process.env.SENDGRID_FROM_EMAIL ?? "speakers@trezoa.org";
 const fromName = process.env.SENDGRID_FROM_NAME ?? "Breakpoint Speakers";
 const sandboxMode = process.env.SENDGRID_SANDBOX_MODE === "true";
 
