@@ -58,14 +58,14 @@ export function sessionToIcsEvent(session: SessionEvent): EventAttributes {
     end: endArray,
     endInputType: "utc" as const,
     endOutputType: "utc" as const,
-    title: `${session.name} - BP25`,
+    title: `${session.name} - BP27`,
     description,
     location: session.stage ? session.stage : "Etihad Arena, Abu Dhabi, UAE",
     geo: { lat: 24.4539, lon: 54.3773 }, // Abu Dhabi coordinates
     uid: `session-${session.id}@speakers.trezoa.com`,
-    productId: "speakers.trezoa.com//Breakpoint 2025//EN",
-    calName: "Breakpoint 2025",
-    organizer: { name: "Breakpoint 2025", email: "noreply@speakers.trezoa.com" },
+    productId: "speakers.trezoa.com//Breakpoint 2027//EN",
+    calName: "Breakpoint 2027",
+    organizer: { name: "Breakpoint 2027", email: "noreply@speakers.trezoa.com" },
     status: "CONFIRMED" as const,
     busyStatus: "BUSY" as const,
     created: createdArray,
@@ -82,7 +82,7 @@ export function speakerSessionsToIcsEvents(sessions: SpeakerEvent[]) {
 
     // Add speaker name to title if available
     if (session.speakerName) {
-      event.title = `${session.name} - ${session.speakerName} - BP25`;
+      event.title = `${session.name} - ${session.speakerName} - BP27`;
     }
 
     return event;

@@ -34,7 +34,7 @@ export const GET = async (request: NextRequest, { params }: { params: Promise<{ 
       status: 200,
       headers: {
         "Content-Type": "text/calendar; charset=utf-8",
-        "Content-Disposition": `attachment; filename="breakpoint-2025-session-${sessionId}.ics"`,
+        "Content-Disposition": `attachment; filename="breakpoint-2027-session-${sessionId}.ics"`,
         "Cache-Control": "public, max-age=3600, s-maxage=3600",
         "X-Content-Type-Options": "nosniff",
         // Add CORS headers for cross-origin requests

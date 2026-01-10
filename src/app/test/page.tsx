@@ -7,7 +7,7 @@ import LogisticsDialogButton from "@/components/speaker-portal/LogisticsDialogBu
 import ActionsChecklist from "@/components/speaker-portal/ActionsChecklist";
 
 export const metadata: Metadata = {
-  title: "Breakpoint 2025 Speaker Portal - Preview",
+  title: "Breakpoint 2027 Speaker Portal - Preview",
   description: "Demo of the speaker portal interface with all states",
   robots: {
     index: false,
@@ -31,7 +31,7 @@ const DUMMY_DATA = {
     dietary: "Vegetarian",
     slideDeckFile: "https://google.com",
     speakerPermitApproval: undefined,
-    lumaTicketSpeaker: "https://luma.com/breakpoint2025/tickets/speaker-123",
+    lumaTicketSpeaker: "https://luma.com/breakpoint2027/tickets/speaker-123",
     invitationCode: "SPEAKER+1-NNNNN",
     discountCode: "GA25-NNNNN, GA25-NNNNN",
     mcInfo: "https://docs.google.com/document/d/example-mc-info-doc",
@@ -45,8 +45,8 @@ const DUMMY_DATA = {
       id: "rec_session_1",
       name: "Building the Next Generation of dApps",
       description: "Join us for a deep dive into building scalable decentralized applications on Trezoa.",
-      startTime: "2025-11-15T14:00:00Z",
-      endTime: "2025-11-15T15:30:00Z",
+      startTime: "2027-11-15T14:00:00Z",
+      endTime: "2027-11-15T15:30:00Z",
       stage: StageValues.Main,
       speakerIds: ["rec123abc", "rec456def"],
       moderatorIds: undefined,
@@ -54,7 +54,7 @@ const DUMMY_DATA = {
       webPublishingStatus: ["Title", "Description", "Speaker"],
       format: ["Product Keynote (5 min)"],
       greenlightTime: "Between 10am and 11am",
-      portalTelegramGroup: "https://t.me/bp25_dapps_session",
+      portalTelegramGroup: "https://t.me/bp27_dapps_session",
       actionsDeckReceived: DeckStatus.ToUpload,
       speakers: [
         {
@@ -75,8 +75,8 @@ const DUMMY_DATA = {
       id: "rec_session_2",
       name: "Panel: The Future of Web3 Infrastructure",
       description: "A panel discussion with industry leaders on the future of blockchain infrastructure.",
-      startTime: "2025-11-16T10:00:00Z",
-      endTime: "2025-11-16T11:00:00Z",
+      startTime: "2027-11-16T10:00:00Z",
+      endTime: "2027-11-16T11:00:00Z",
       stage: StageValues.Side,
       speakerIds: ["rec123abc", "rec789ghi", "rec012jkl"],
       moderatorIds: undefined,
@@ -84,7 +84,7 @@ const DUMMY_DATA = {
       webPublishingStatus: ["Time", "Title", "Description", "Speaker"],
       format: ["Debate (30 min)"],
       greenlightTime: undefined,
-      portalTelegramGroup: "https://t.me/bp25_web3_panel",
+      portalTelegramGroup: "https://t.me/bp27_web3_panel",
       actionsDeckReceived: DeckStatus.Approved,
       speakers: [
         {
@@ -111,8 +111,8 @@ const DUMMY_DATA = {
       id: "rec_session_4",
       name: "Opening Keynote: The State of Trezoa",
       description: "An annual review of Trezoa's growth, achievements, and what's coming next.",
-      startTime: "2025-11-15T09:00:00Z",
-      endTime: "2025-11-15T10:30:00Z",
+      startTime: "2027-11-15T09:00:00Z",
+      endTime: "2027-11-15T10:30:00Z",
       stage: StageValues.Main,
       speakerIds: ["rec123abc"],
       moderatorIds: undefined,

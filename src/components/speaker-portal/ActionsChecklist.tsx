@@ -105,7 +105,7 @@ export default function ActionsChecklist({
   // Plus One Ticket
   if (plusOneTicketLink) {
     const encodedCode = encodeURIComponent(plusOneTicketLink);
-    const plusOneUrl = `https://luma.com/breakpoint2025?coupon=${encodedCode}`;
+    const plusOneUrl = `https://luma.com/breakpoint2027?coupon=${encodedCode}`;
     ticketTasks.push({
       id: "plus-one-ticket",
       title: "Plus One Ticket",
@@ -336,7 +336,7 @@ export default function ActionsChecklist({
                 <ul className="text-muted-foreground mt-2 space-y-1 text-sm">
                   {task.codes.map((code: string, index: number) => {
                     const encodedCode = encodeURIComponent(code);
-                    const lumaUrl = `https://luma.com/breakpoint2025?coupon=${encodedCode}`;
+                    const lumaUrl = `https://luma.com/breakpoint2027?coupon=${encodedCode}`;
                     return (
                       <li key={index} className="font-mono">
                         <a

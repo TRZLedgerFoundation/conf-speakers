@@ -22,7 +22,7 @@ export const generateMetadata = async ({
   const speakerId = payload?.speakerId ?? "Unknown";
 
   return {
-    title: `Breakpoint 2025 Speaker ${speakerId}`,
+    title: `Breakpoint 2027 Speaker ${speakerId}`,
     description: `Detailed information about the speaker ${speakerId} of the Breakpoint conference`,
     robots: {
       index: false,

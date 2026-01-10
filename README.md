@@ -1,4 +1,4 @@
-# speakers.trezoa.com — BP25 Speaker Portal
+# speakers.trezoa.com — BP27 Speaker Portal
 
 A focused **Airtable-driven** microsite for Breakpoint speakers. Private-but-shareable pages (no login required) via **JWT-signed links**, fresh data from **Airtable** (server-side only), and convenient **ICS** calendar feeds.
 

@@ -236,11 +236,11 @@ export default function SessionsCards({ items, calendarUrl, allSessionsCalendarU
                         </Button>
                       )}
 
-                      {/* All BP25 Sessions button */}
+                      {/* All BP27 Sessions button */}
                       {publishingStatusFlags?.hasTime && allSessionsCalendarUrl && (
                         <Button size="sm" variant="outline" asChild className="w-full sm:w-auto">
                           <a href={allSessionsCalendarUrl} target="_blank" rel="noopener noreferrer">
-                            <Calendar className="mr-2 h-4 w-4" />+ Add All BP25 Sessions to Calendar
+                            <Calendar className="mr-2 h-4 w-4" />+ Add All BP27 Sessions to Calendar
                           </a>
                         </Button>
                       )}

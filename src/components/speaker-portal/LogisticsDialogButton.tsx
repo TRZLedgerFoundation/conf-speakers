@@ -142,7 +142,7 @@ export default function LogisticsDialogButton({ stage, stages }: { stage: StageT
                 <ExternalLink className="h-4 w-4" />
               </a>
               <p className="text-p2 text-secondary mt-2">
-                For more detailed information about speaking at BP25, including best practices and additional resources.
+                For more detailed information about speaking at BP27, including best practices and additional resources.
               </p>
             </div>
           </section>

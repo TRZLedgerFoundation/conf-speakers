@@ -14,7 +14,7 @@ export function SiteHeader() {
     <header className="bg-background/80 border-stroke-primary sticky top-0 z-40 w-full border-b backdrop-blur">
       <div className="mx-auto flex h-14 max-w-6xl items-center justify-between px-6 sm:h-16 xl:px-0">
         <Link href={`/${qs}`} className="hover:opacity-80">
-          <Image src="/icon.svg" alt="BP25" width={60} height={14} />
+          <Image src="/icon.svg" alt="BP27" width={60} height={14} />
         </Link>
         <nav className="flex items-center gap-6 text-sm">
           {!qs && (
