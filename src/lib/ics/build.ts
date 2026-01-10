@@ -65,7 +65,7 @@ export function sessionToIcsEvent(session: SessionEvent): EventAttributes {
     uid: `session-${session.id}@speakers.trezoa.com`,
     productId: "speakers.trezoa.com//Breakpoint 2027//EN",
     calName: "Breakpoint 2027",
-    organizer: { name: "Breakpoint 2027", email: "noreply@speakers.trezoa.com" },
+    organizer: { name: "Trezoa Team", email: "team@trezoa.com" },
     status: "CONFIRMED" as const,
     busyStatus: "BUSY" as const,
     created: createdArray,

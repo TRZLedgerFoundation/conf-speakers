@@ -239,11 +239,11 @@ export default function TicketsSection({ speakerTicket, plusOneTicket, invitatio
                     <p className="text-p1">
                       If you encounter any issues with ticket redemption, please contact the event organizers at{" "}
                       <a
-                        href="mailto:events@trezoa.org"
+                        href="mailto:team@trezoa.com"
                         className="text-azure hover:underline"
                         aria-label="Contact event organizers via email"
                       >
-                        events@trezoa.org
+                        team@trezoa.com
                       </a>
                       .
                     </p>

@@ -57,8 +57,8 @@ NEXT_PUBLIC_KEY_EXP=7776000000
 # SendGrid transactional email
 SENDGRID_API_KEY=SG.xxxxxx
 SENDGRID_TEMPLATE_ID=d-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-SENDGRID_FROM_EMAIL=speakers@trezoa.org
-SENDGRID_FROM_NAME="Breakpoint Events Team"
+SENDGRID_FROM_EMAIL=team@trezoa.com
+SENDGRID_FROM_NAME="Trezoa Team"
 # Optional: keep true while developing to avoid sending real mail
 SENDGRID_SANDBOX_MODE=true
 ```

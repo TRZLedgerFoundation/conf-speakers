@@ -2,16 +2,16 @@ import { sanitizeXLink, sanitizeXName } from "./utils";
 
 describe("sanitizeXName", () => {
   test("should handle basic handle formats", () => {
-    expect(sanitizeXName("johndoe")).toBe("johndoe");
-    expect(sanitizeXName("@johndoe")).toBe("johndoe");
-    expect(sanitizeXName("  johndoe  ")).toBe("johndoe");
+    expect(sanitizeXName("trezoa")).toBe("trezoa");
+    expect(sanitizeXName("@trezoa")).toBe("trezoa");
+    expect(sanitizeXName("  trezoa  ")).toBe("trezoa");
   });
 });
 
 describe("sanitizeXLink", () => {
   test("should handle basic handle formats", () => {
-    expect(sanitizeXLink("johndoe")).toBe("https://x.com/johndoe");
-    expect(sanitizeXLink("@johndoe")).toBe("https://x.com/johndoe");
-    expect(sanitizeXLink("  johndoe  ")).toBe("https://x.com/johndoe");
+    expect(sanitizeXLink("trezoa")).toBe("https://x.com/trezoa");
+    expect(sanitizeXLink("@trezoa")).toBe("https://x.com/trezoa");
+    expect(sanitizeXLink("  trezoa  ")).toBe("https://x.com/trezoa");
   });
 });

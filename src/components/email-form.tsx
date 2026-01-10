@@ -93,7 +93,7 @@ export function EmailForm() {
         </label>
         <Input id="email" name="email" type="email" placeholder="you@example.com" required />
         <p className="text-muted-foreground text-xs">
-          You&apos;ll receive a magic link from the Breakpoint Events Team.
+          You&apos;ll receive a magic link from the Trezoa Team.
         </p>
         <EmailFieldError error={state.fieldErrors?.email} />
       </div>
