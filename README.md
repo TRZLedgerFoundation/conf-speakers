@@ -24,7 +24,7 @@ Speaker links are availble in airtable, but can also be found in the server logs
 
 ## Getting Started
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is a [Next.js](https://nextjs.org) trezoa bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ### 1) Install & Run
 
@@ -235,7 +235,7 @@ pnpm lint       # lint
 
 ## Deploy on Vercel
 
-- Create project speakers-trezoa-com
+- Create trezoa speakers-trezoa-com
 - Set all Environment Variables
 - Assign custom domain speakers.trezoa.com
 - (Optional) Add Sentry via wizard

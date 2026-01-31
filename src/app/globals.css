@@ -8,7 +8,7 @@
   --font-sans: var(--font-abc-diatype);
   --font-mono: var(--font-macan-mono);
 
-  /* Core theme mapping to project color tokens */
+  /* Core theme mapping to trezoa color tokens */
   --color-background: var(--color-background-primary);
   --color-foreground: var(--color-primary);
 
